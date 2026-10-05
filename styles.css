@@ -1,0 +1,124 @@
+.heading, .head{
+    position: relative;
+    display: flex;
+    left: 35%;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 40px;
+}
+.form{
+    position: relative;
+    display: flex;
+    left: 80px;
+    top: 70px;
+    width: 300px;
+    border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+
+ 
+}
+.message{
+    width: 150px;
+    height: 150px;
+ 
+   
+}
+.clear, .okay{
+    position: relative;
+    left: 30px;
+   width: 120px;
+   height: 50px;
+   border-radius: 20px;
+   background-color: #04AA6D;
+  color: white;
+  padding: 15px 20px;
+  border: none;
+  border-radius: 20px;
+  cursor: pointer
+
+}
+.navbar{
+    border: 2px solid black;
+   position: fixed;
+    left: 100px;
+    top: 755px;
+    width: 300px;
+    height: 60px;
+   flex-direction: row;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    border-radius: 20px;
+
+}
+.container {
+  border-radius: 20px;
+  background-color: #f2f2f2;
+  margin: 0;
+
+}
+    
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+.hamburger {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    cursor: pointer;
+}
+.hamburger span {
+    width: 25px;
+    height: 3px;
+    background-color: black;
+    border-radius: 2px;
+}
+.stories{
+    flex-direction: row;
+    display: flex;
+gap: 15px;
+    padding: 20px;
+    overflow-y: none;
+    overflow-x: auto;
+}
+
+
+ .story1{
+    height: 100px;
+    width: 200px;
+    border-radius: 80%;
+    object-fit:cover;
+    border: 5px solid;
+ border-image: linear-gradient(45deg, purple, pink, orange) 1;
+ }
+ .text{
+    font-size:30px;
+ }
+ .mess{
+    width: 300px;
+    height: 300px;
+    
+    padding-top: 15px;
+ }
+ .messtxt{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    width: 100px;
+    position: relative;
+    left: 350px;
+    top: -320px;
+    display: flex;
+ }
+ .storyy{
+height: 500px;
+width: 500px;
+top: 140px;
+
+ }
